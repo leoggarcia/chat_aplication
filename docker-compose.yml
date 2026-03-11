@@ -1,0 +1,12 @@
+services:
+  backend:
+    build: ./chat_aplication_back
+    container_name: chat_aplication_back
+    restart: always
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./chat_aplication_back/.env
+    volumes:
+      - ./chat_aplication_back:/app
+      - /app/node_modules
