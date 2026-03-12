@@ -5,6 +5,7 @@
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-%23C21325.svg?style=for-the-badge&logo=jest&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 
 This project is a full-stack chat application that allows users to interact with an AI-powered Italian Chef. The Chef is an expert in traditional Italian cuisine, offering recipes, culinary techniques, and gastronomic tips in real-time.
@@ -103,6 +104,24 @@ You can run the application services individually or using Docker for the backen
     ```
     The frontend will be available at the URL provided by Vite (usually `http://localhost:5173`).
 
+## Testing
+
+The backend includes a comprehensive test suite using **Jest** to ensure the reliability of services, controllers, and guards.
+
+- **Run all tests:**
+  ```bash
+  cd chat_aplication_back
+  npm run test
+  ```
+- **Run tests in watch mode:**
+  ```bash
+  npm run test:watch
+  ```
+- **Coverage report:**
+  ```bash
+  npm run test:cov
+  ```
+
 ## Future Improvements
 
 -   **Chat History**: Implement a database (PostgreSQL/MongoDB) to save and retrieve previous conversations.
@@ -117,5 +136,6 @@ You can run the application services individually or using Docker for the backen
 *   **Styling**: [TailwindCSS 4](https://tailwindcss.com/)
 *   **AI Engine**: [Google Gemini Pro](https://deepmind.google/technologies/gemini/)
 *   **Language**: [TypeScript](https://www.typescriptlang.org/)
+*   **Testing**: [Jest](https://jestjs.io/)
 *   **Icons**: [Lucide React](https://lucide.dev/)
 *   **Containerization**: [Docker](https://www.docker.com/)

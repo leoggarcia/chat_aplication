@@ -1,7 +1,6 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { CreateChatDto } from './dto/create-chat.dto';
-import { UpdateChatDto } from './dto/update-chat.dto';
-import { GeminiLlmService } from 'src/gemini-llm/gemini-llm.service';
+import { GeminiLlmService } from '../gemini-llm/gemini-llm.service';
 
 @Injectable()
 export class ChatsService {
