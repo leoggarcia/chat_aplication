@@ -7,18 +7,14 @@ import { GeminiLlmService } from 'src/gemini-llm/gemini-llm.service';
 export class ChatsService {
   constructor(private readonly geminiService: GeminiLlmService) {}
 
-  async create(createChatDto: CreateChatDto) {
+  create(createChatDto: CreateChatDto) {
     if (!createChatDto?.message) {
-      return new HttpException(
+      throw new HttpException(
         'Reject empty or missing message',
         HttpStatus.BAD_REQUEST,
       );
     }
 
-    const geminiAnswer = await this.geminiService.generateResponse(
-      createChatDto.message,
-    );
-
-    return { reply: `Bot: ${geminiAnswer}` };
+    return this.geminiService.generateResponseStream(createChatDto.message);
   }
 }
