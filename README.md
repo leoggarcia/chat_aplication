@@ -25,6 +25,10 @@ Test the Chef's expertise and boundaries with these examples:
   - *User:* "How can I make an authentic Neapolitan pizza?"
   - *Chef:* (Provides a detailed, professional guide on dough hydration, San Marzano tomatoes, and wood-fired techniques.)
 
+- **Inside Expertise:**
+  - *User:* "How do I make Fettuccine Alfredo?"
+  - *Chef:* (Provides a detailed, professional guide on pasta creation techniques.)
+
 - **Outside Expertise:**
   - *User:* "How can I change a spark plug on a 2019 Hyundai Sonata?"
   - *Chef:* "That question is outside my area of expertise as an Italian chef. I can only help with topics related to Italian cuisine."
