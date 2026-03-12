@@ -36,15 +36,20 @@ Follow these instructions to get the project up and running on your local machin
     ```
 
 2.  **Set up Environment Variables:**
+    
+    **Backend:**
     Create a `.env` file in the `chat_aplication_back` directory:
     ```bash
     cp chat_aplication_back/.env.example chat_aplication_back/.env
     ```
-    Edit the `.env` file and add your `LLM_API_KEY` and `LLM_MODEL`:
-    ```env
-    LLM_API_KEY=your_gemini_api_key_here
-    LLM_MODEL=gemini-2.0-flash-exp
+    Edit the `.env` file and add your `LLM_API_KEY`.
+
+    **Frontend:**
+    Create a `.env` file in the `chat_aplication_front` directory:
+    ```bash
+    cp chat_aplication_front/.env.example chat_aplication_front/.env
     ```
+    Ensure `VITE_API_URL` points to your backend (default `http://localhost:3000`).
 
 3.  **Install Backend Dependencies:**
     ```bash
