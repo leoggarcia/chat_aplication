@@ -17,6 +17,18 @@ This project is a full-stack chat application that allows users to interact with
 - **Modern UI**: Responsive and clean chat interface built with React 19 and TailwindCSS 4.
 - **Dockerized Backend**: Easily deploy and run the backend service using Docker.
 
+## Example Prompts
+
+Test the Chef's expertise and boundaries with these examples:
+
+- **Inside Expertise:**
+  - *User:* "How can I make an authentic Neapolitan pizza?"
+  - *Chef:* (Provides a detailed, professional guide on dough hydration, San Marzano tomatoes, and wood-fired techniques.)
+
+- **Outside Expertise:**
+  - *User:* "How can I change a spark plug on a 2019 Hyundai Sonata?"
+  - *Chef:* "That question is outside my area of expertise as an Italian chef. I can only help with topics related to Italian cuisine."
+
 ## Getting Started
 
 Follow these instructions to get the project up and running on your local machine for development and testing.
